@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MoonCore</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Inter,sans-serif;
+background:#000;
+color:#fff;
+overflow-x:hidden;
+}
+nav{
+position:fixed;
+top:0;
+width:100%;
+padding:24px 8%;
+display:flex;
+justify-content:space-between;
+backdrop-filter:blur(12px);
+background:rgba(0,0,0,.55);
+border-bottom:1px solid rgba(255,255,255,.08);
+z-index:100;
+}
+.logo{
+font-size:1.1rem;
+font-weight:800;
+letter-spacing:6px;
+}
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+padding:0 8%;
+}
+.hero-content{
+max-width:900px;
+}
+.hero h1{
+font-size:clamp(4rem,10vw,8rem);
+line-height:.92;
+font-weight:800;
+letter-spacing:-4px;
+margin-bottom:24px;
+}
+.hero p{
+font-size:1.2rem;
+color:#b5b5b5;
+max-width:700px;
+line-height:1.8;
+}
+.btn{
+display:inline-block;
+margin-top:40px;
+padding:16px 34px;
+border:1px solid rgba(255,255,255,.2);
+border-radius:999px;
+color:#fff;
+text-decoration:none;
+transition:.3s;
+}
+.btn:hover{
+background:#fff;
+color:#000;
+}
+section{
+padding:120px 8%;
+}
+.small{
+color:#7d7d7d;
+text-transform:uppercase;
+letter-spacing:4px;
+font-size:.8rem;
+margin-bottom:15px;
+}
+h2{
+font-size:clamp(2rem,5vw,4rem);
+margin-bottom:20px;
+}
+.text{
+max-width:850px;
+color:#bcbcbc;
+line-height:1.9;
+font-size:1.05rem;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:24px;
+margin-top:50px;
+}
+.card{
+padding:32px;
+border:1px solid rgba(255,255,255,.08);
+background:rgba(255,255,255,.02);
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-6px);
+border-color:rgba(255,255,255,.2);
+}
+.card h3{
+font-size:1.3rem;
+margin-bottom:14px;
+}
+.card p{
+color:#a7a7a7;
+line-height:1.8;
+}
+.statement{
+font-size:clamp(2.5rem,6vw,5rem);
+font-weight:700;
+line-height:1.1;
+max-width:1000px;
+}
+.footer{
+padding:80px 8%;
+border-top:1px solid rgba(255,255,255,.08);
+color:#8a8a8a;
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">MOONCORE</div>
+</nav>
+
+<div class="hero">
+<div class="hero-content">
+<h1>Building Intelligence Beyond Devices.</h1>
+<p>
+MoonCore develops the foundation for future technologies through electronics,
+artificial intelligence, robotics, and advanced engineering.
+</p>
+<a href="#vision" class="btn">Explore</a>
+</div>
+</div>
+
+<section>
+<div class="small">Vision</div>
+<div class="statement">
+Technology should feel effortless.
+Powerful when needed. Invisible when not.
+</div>
+</section>
+
+<section id="vision">
+<div class="small">What We Build</div>
+<h2>Designed For Tomorrow.</h2>
+
+<div class="grid">
+<div class="card">
+<h3>AI Systems</h3>
+<p>Intelligent technologies that learn, adapt, and evolve.</p>
+</div>
+
+<div class="card">
+<h3>Smart Electronics</h3>
+<p>Modern hardware designed around simplicity and performance.</p>
+</div>
+
+<div class="card">
+<h3>Robotics</h3>
+<p>Machines created to interact naturally with people and environments.</p>
+</div>
+
+<div class="card">
+<h3>Future Technologies</h3>
+<p>Research-driven innovation exploring what comes next.</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="small">Philosophy</div>
+<h2>Simple. Intelligent. Timeless.</h2>
+<p class="text">
+The best products remove complexity. Every technology we explore is guided by
+clarity, reliability, and long-term thinking.
+</p>
+</section>
+
+<section>
+<div class="small">Journey</div>
+<h2>Research. Engineering. Innovation.</h2>
+<p class="text">
+MoonCore is focused on developing ideas, prototypes, and technologies that can
+shape the future of intelligent systems.
+</p>
+</section>
+
+<div class="footer">
+MOONCORE<br><br>
+© 2026 MoonCore
+</div>
+
+</body>
+</html>
